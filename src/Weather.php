@@ -18,6 +18,12 @@ class Weather {
 
     const KEY = 'd20f414e81cb35b8d1ec18ed2c49ca18';
 
+    /**
+     * 获取城市天气
+     * @param string $city
+     * @return string
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
     public static function getWeather($city='110101'){
         $url = 'https://restapi.amap.com/v3/weather/weatherInfo';
 
