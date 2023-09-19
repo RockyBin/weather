@@ -42,5 +42,12 @@ class Weather {
             echo $e->getMessage();exit;
         }
     }
+
+    /**
+     * 测试
+     */
+    public static function test(){
+        echo '啥也没有';
+    }
 }
 
